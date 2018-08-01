@@ -1,0 +1,20 @@
+export default{
+  set_window_width:({commit},payload)=>{
+    commit('SET_WINDOW_WIDTH',payload);
+  },
+  set_footer_status:({commit},payload)=>{
+    commit('SET_FOOTER_STATUS',payload);
+  },
+  set_storage:({commit},payload)=>{
+  	commit('SETSTORAGE',payload);
+  },
+  removeStorage:({commit},payload)=>{
+  	commit('REMOVESTORAGE',payload);
+  },
+  updateLoading:({commit},payload)=>{
+    commit('UPDATELOADING',payload);
+  },
+  UpdateBookCase:({commit},payload)=>{
+    commit('UPDATEBOOKCASE',payload);
+  }
+}
